@@ -1,0 +1,190 @@
+p{
+  font-family: ten-mincho, serif; 
+  font-weight: lighter;
+}
+
+.picking_slide{
+  padding: 40px;
+  background: #C1E6D9;
+  position: relative;
+  
+}
+
+.slide_left{
+  padding: 50px 50px 80px;
+  margin: 0 20px;
+  background: #FFFFF5;
+  text-align: center;
+}
+
+.picking_text_box{
+  position: relative;
+  left: -30%;
+} 
+
+.slide_left h1{
+  font-size: 50px;
+  color: #7FA6A0;
+  line-height: 25px;
+}
+
+.slide_left h3{
+  color: #948175;
+  line-height: 10px;
+}
+
+.slide_left p{
+  font-size: 13px;
+}
+
+.slide_left img{
+  margin: 30px;
+}
+
+/* スライド右コンテンツ */
+.pic_slide_right{
+  margin-right: 20px;
+  width: 600px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  text-align: center;
+}
+
+.pic_right_contents{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.pic_right_contents h2{
+  color: #948175;
+}
+
+.picking_slide_image_conteiner{
+  width: 380px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  overflow: hidden;
+}
+
+.slick-dots{
+  position: relative;
+  top: 0px;
+}
+
+.slick-dots li{
+  width: 30px;
+  height: 30px;
+}
+
+/* いちごの種類 */
+#picking_type{
+  background: url(../img/common/pattern_2.png) repeat ;
+}
+
+.type_back{
+  padding: 140px 0;
+  width: 900px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}
+
+.type_title{
+  position: absolute;
+  top: 80px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.type_title h3{
+  margin: 0;
+  font-size: 12px;
+}
+.type_title h1{
+  margin: 0 0 30px;
+  font-size: 30px;
+  line-height: 30px;
+  
+}
+
+.picking_title_text{
+  position: relative;
+  top: -110px;
+}
+
+/* いちご紹介ボックス */
+.type_box_container{
+  width: 800px;
+  position: absolute;
+  top: 300px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  display: flex;
+}
+
+.type_box{
+  text-align: center;
+  position: relative;
+  width: 300px;
+}
+
+.type_box h2{
+  font-family: maru-maru-gothic-blr-stdn, sans-serif;
+  color: #603813;
+  position: relative;
+  top: -100px;
+}
+
+.type_box h2 span{
+  font-size: 14px;
+}
+
+.type_text{
+  width: 170px;
+  position: absolute;
+  top: 25px;
+  text-align: left;
+  left: 50%;
+  transform: translate(-50%, 0px);
+}
+
+.type_text h3{
+  margin: 0;
+  text-align: center;
+  position: relative;
+  top: -15px;
+}
+
+.type_text p{
+  margin: 0;
+  font-family: maru-maru-gothic-blr-stdn, sans-serif;
+  font-size: 11px;
+  line-height: 18px;
+}
+
+.type_text_box{
+  position: relative;
+  top: -40px;
+}
+
+.str_img{
+  position: relative;
+  top: -60px;
+}
+
+/* いちご狩りページ　ご予約 */
+.picking_container .main_container{
+  position: relative;
+}
+
+.picking_container .main_content{
+  position: absolute;
+  top: 180px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  text-align: center;
+}

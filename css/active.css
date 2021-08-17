@@ -1,0 +1,56 @@
+.main_container .menu .selection.active{
+  background: #E72C31;
+  color: white;
+} 
+.main_container .menu .selection:not(.active):hover{
+  background: #FFECDF;
+  color: white;
+  transition: .3s;
+  cursor: pointer;
+} 
+
+.str_container.active{
+  display: block;
+}
+.str_container{
+  display: none;
+}
+
+.hidden{
+  display: none;
+}
+
+/* スライダー各写真のキャッチコピー */
+.slide_text_1{
+  position: relative;
+  left: -320px;
+  font-size: 2vw;
+  color: white;
+}
+.slide_text_2{
+  position: absolute;
+  top: 60px;
+  left: 50%;
+  transform: translateX(-30%);
+  font-size: 2vw;
+  font-family: ten-mincho, serif;
+  writing-mode: horizontal-tb;
+  color: white;
+}
+.slide_text_3{
+  position: absolute;
+  top: -30px;
+  font-size: 2vw;
+  font-family: ten-mincho, serif;
+  writing-mode: vertical-rl;
+  color: #948175;
+}
+.slide_text_4{
+  position: absolute;
+  bottom: -100%;
+  left: 40px;
+  font-size: 2vw;
+  font-family: ten-mincho, serif;
+  writing-mode: horizontal-tb;
+  color: white;
+}

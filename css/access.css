@@ -1,0 +1,72 @@
+p, h1, h2{
+  font-family: ten-mincho, serif; 
+}
+
+.access_wrap{
+  background: url(../img/common/pattern_2.png);
+}
+
+.acces_container{
+  padding: 100px 0;
+  text-align: center;
+  position: relative;
+}
+
+/* 地図 */
+.map{
+  text-align: center;
+  padding: 100px 0;
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-bottom: solid #AC9839 1px;
+}
+
+.iframe_wrap{
+  position: relative;
+  width: 700px;
+  margin: 50px 0;
+}
+
+.iframe_wrap iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.map p{
+  font-family: ten-mincho, serif; 
+}
+
+/* 文章 */
+.map_detail{
+  text-align: left;
+  position: absolute;
+  top: 1000px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.map_detail_1{
+  margin: 0 auto;
+  width: 600px;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.title{
+  width: 250px;
+}
+
+.title h2{
+  font-size: 15px;
+}
+
+.map_text{
+  width: 450px;
+  font-size: 13px;
+}

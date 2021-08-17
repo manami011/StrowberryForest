@@ -1,0 +1,29 @@
+footer{
+  background: #C1E6D9;
+  padding: 100px;
+}
+
+footer p{
+  font-family: ten-mincho, serif; 
+}
+
+footer p a:hover{
+  color: white;
+  transition: .3s;
+}
+
+.footer_container{
+  display: flex;
+  width: 800px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%, 0);
+  justify-content: space-between;
+}
+
+.footer_left{
+  width: 400px;
+}
+.footer_right{
+  width: 400px;
+}
